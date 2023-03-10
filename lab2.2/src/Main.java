@@ -1,4 +1,5 @@
 //Вариант 1, задача 6
+import java.util.Date;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +28,10 @@ public class Main {
             }
             flag = true;
         }
+        Date date1 = new Date();
+        date1.getDate();
+        System.out.println("Rozhnov");
+        System.out.println("Задание выдано: 17.02.2023");
+        System.out.println("Задание сдано: " + date1);
     }
 }

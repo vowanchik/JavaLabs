@@ -1,4 +1,5 @@
 //Вариант 1, задача 5
+import java.util.Date;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -40,5 +41,11 @@ public class Main {
         }
         System.out.println("The number of words consisting of letters of the Latin alphabet is " + k);
         System.out.print("The number of words with the same number of vowels and consonants is " + l);
+
+        Date date1 = new Date();
+        date1.getDate();
+        System.out.println("Rozhnov");
+        System.out.println("Задание выдано: 17.02.2023");
+        System.out.println("Задание сдано: " + date1);
     }
 }
