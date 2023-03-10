@@ -1,4 +1,4 @@
-//Вариант 2, задача 1
+//Вариант 2, задача 1 и 2
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -25,5 +25,16 @@ public class Main {
             if (numberArray[i] % 2 != 0)
                 System.out.print(numberArray[i] + " ");
         }
+        //поиск максимального и минимального элементов
+        int min = numberArray[0];
+        int max = numberArray[0];
+        for (int i = 1; i < n; i++){
+            if (numberArray[i] < min)
+                min = numberArray[i];
+            if (numberArray[i] > max)
+                max = numberArray[i];
+        }
+        System.out.print("Max element is " + max);
+        System.out.print("Min element is " + min);
     }
 }
