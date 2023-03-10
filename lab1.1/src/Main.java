@@ -7,11 +7,11 @@ public class Main {
         int n = in.nextInt();//ввод с консоли
         String str = "Just a string"; // задал любую строку
         for(int i = 0; i < n; i++){
-            System.out.print(str + ' '); //вывожу в цикле n раз без перевода на новую строку
+            System.out.print(str + " "); //вывожу в цикле n раз без перевода на новую строку
         }
         System.out.println();
         for(int i = 0; i < n; i++){
-            System.out.println(str + ' ');// с переводом на новую строку
+            System.out.println(str);// с переводом на новую строку
         }
     }
 }
